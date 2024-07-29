@@ -1,0 +1,116 @@
+.hero-section {
+  width: 100%;
+  height: 100%;
+  background: url(../img/background.png) no-repeat center center / cover;
+}
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(149.33deg, #395c4d 0.87%, #132d1f 94.27%);
+  opacity: 80%;
+}
+
+.hero-title {
+  margin-top: -20px;
+}
+.hero-title h1 {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+.hero-title h1 {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 90px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.trans-icon {
+  padding-left: calc(50% - 70px);
+  margin-top: -40px;
+}
+.trans-icon img {
+  margin-top: -40px;
+}
+.hero-title h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  opacity: 80%;
+}
+.border-icon {
+  display: inline-block;
+  width: 70px;
+  /* Chiều dài của đường gạch */
+  height: 2px;
+  /* Độ dày của đường gạch */
+  background-color: #fff;
+  /* Màu sắc của đường gạch */
+  /* padding: 0 10px;
+       */
+  margin: 0 50px;
+  margin-bottom: 10px;
+}
+.text {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  /* Màu chữ */
+}
+.hero-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.hero-subtitle-content {
+  width: 50%;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+  opacity: 0.6;
+  margin-top: -40px;
+}
+.hero-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+#hero-btn {
+  position: relative;
+  width: 243px;
+  height: 78px;
+  box-sizing: border-box;
+  background: linear-gradient(328.68deg, #98aa28 13.03%, #d6ff7e 120.61%);
+  box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+  border-radius: 192px;
+  z-index: 1;
+}
+#hero-btn span {
+  /* Get Started */
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.hero-footer-overlay img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -20rem;
+  padding-top: 60px;
+}
